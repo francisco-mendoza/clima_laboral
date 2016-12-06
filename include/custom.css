@@ -1,0 +1,420 @@
+
+#tablaSeleccionCr td {
+  padding:10px !important;	
+}
+
+/* panel resultados */
+.tituloPanel{
+  font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size:12px !important;	
+  font-weight:bold;  	
+}
+.numeroPanel{
+  font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size:26px !important;
+  text-align:center;
+  font-weight:bold;	
+  margin-top:20px;
+}
+
+.descripcionPanel{
+  text-align:center ;
+  margin-top:10px ;
+  margin-bottom:20px ;  	
+}
+
+/* panel resultados */
+
+
+.tablaDescripcionGrafico{
+  width:600px !important;	
+}
+table.tablaDescripcionGrafico td{
+  padding:10px !important;	
+}
+
+
+.tituloGrafico{
+  font-size:13px !important;
+  font-weight:bold;
+  margin-bottom:0.5cm !important;
+}
+
+div#capaImpresion{
+  text-align: center !important;
+}
+
+.bordeNegroSolido{
+  border-color:black !important;	
+  border-width:thin;
+  border-style: solid;	
+}
+
+table#tablainventario{
+  font-size:12px !important;	
+}
+
+table#balancesocial1{
+  font-size:12px !important;	
+}
+table#balancesocial2{
+  font-size:12px !important;	
+}
+
+
+table#tablainventario td{
+  border-color:black !important;	
+  border-width:thin;
+  border-style:solid;
+}
+table#tablainventario th{
+  border-color:black !important;	
+  border-width:thin;
+  border-style:solid;
+}
+
+table#balancesocial2 td{
+  border-color:black !important;	
+  border-width:thin;
+  border-style: solid;
+}
+table#balancesocial2 th{
+  border-color:black !important;	
+  border-width:thin;
+  border-style: solid;
+}
+table#balancesocial1 td{
+  border-color:black !important;	
+  border-width:thin;
+  border-style: solid;
+}
+table#balancesocial1 th{
+  border-color:black !important;	
+  border-width:thin;
+  border-style: solid;
+}
+
+
+
+.contenedorApilable{
+  margin-left:10% !important;	
+  margin-right: 10% !important;
+  width:100% !important;  
+}
+
+.apilable{
+  float:left;
+  width:35% !important;
+  /*margin-right:10px !important;*/
+  margin-left:20px !important; 	
+}
+
+.panel-default {
+  /*margin-left: 20px !important;*/
+}
+
+.selectUnidad{
+  margin-left:20px !important;	
+}
+
+.elementoUnidad{
+  margin-left:20px !important;	
+}
+
+
+.contenidoUnidad{
+  text-align:center !important;
+}
+
+
+/* fondo amarillo tablas de grafico */
+.estiloAmarilloGrafico{
+  background-color:#F8A55F !important;
+  color:white !important;	
+  font-weight:bold;
+  text-align:center;  
+}
+
+/* texto rotado */
+.rotate{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+/* texto rotado */
+
+/* modificaciones bootstrap */
+.row{
+  margin-right:auto !important;	
+  margin-left:auto !important;  
+}
+
+/* modificaciones bootstrap */
+
+.positivo{
+  background-color:blue !important;	
+  color:white !important;  
+}
+.negativo{
+  background-color:red !important;	
+  color:white !important;  
+}
+.sortable{
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+select{
+  width:150px !important;	
+}
+.score{
+  margin-bottom:40px !important;	
+}
+.vertical{
+  	
+}
+.vertical td, th{
+  padding-left:5px !important;  	
+  padding-right:5px !important; 
+}
+.vertical th{
+  text-align:center;  	
+}
+.vertical th.titulo_pregunta{
+  width:10%;
+}
+.vertical td.titulo_pregunta{
+  text-align:center;
+}
+.table{
+  margin-bottom:2px !important;	
+}
+
+
+
+.textoCentrado{
+  text-align:center !important;	
+}
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert {
+  padding: 15px;
+  /*margin-bottom: 20px;*/
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+ }
+ .textoCentrado{
+ 	text-align:center !important;
+ }
+
+ .seleccioncr{
+   width:150px !important; 	
+ }
+
+ .oculto{
+   display:none;
+ }
+
+.btn-custom {
+  background-color: #F57E1B;
+  border-color: #F57E1B;
+  color:white !important;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background-color: #ec710a;
+  border-color: #d46509;
+}
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #F57E1B;
+  border-color: #F57E1B;
+}
+
+
+.circulo {
+font-size: 54px;
+border-radius: 50%;
+border: 2px solid rgb(205, 209, 215);
+padding: 5px;
+border-color:white !important;
+}
+
+#titulo{
+background-color:#F57E1B;	
+padding:30px !important;
+width:100% !important;
+}
+
+.tituloFront{
+  color:white !important;
+  font-weight:bold !important;	
+  font-family:Verdana;
+  font-size:13px;	
+    
+}
+
+.barraFront{
+  margin-top:10px !important	
+  margin-bottom:10px !important  
+}
+
+.barraDer{
+  padding-left:10px !important;
+  padding-right:10px !important;
+  border-right-width:3px !important;	
+  border-right-color:white !important;
+  border-right-style:solid;
+}
+
+.contenedorBarraFront{
+  padding-top:10px !important;	
+ /* padding-bottom:10px !important; */  
+}
+
+.tablaRadius1{ 
+  border-radius:15px !important;
+  border-width:2px !important;
+  border-color:#BEEFF5 !important;
+  border-style:solid !important;
+}
+
+.footer{
+  color:white !important;	
+  background-color:#F57E1B !important;	
+  font-size:8.5pt;
+  font-family:Verdana;
+  padding-top:4px !important;
+  padding-bottom:4px !important; 
+  text-align:center !important;
+  border-radius:7px !important;
+}
+
+.titulo_tabla_des{
+  background-color:#F57E1B !important;
+  color:white !important;	
+  font-family:Verdana;
+  font-weight:bold;
+  padding:5px !important;  
+}
+
+.encabezado-tabla-fon-gris-normal{
+  background-color:#F57E1B !important;
+  color:white !important;	
+  font-family:Verdana;	
+  padding:5px !important;
+}
+
+.padding1{
+  padding-left:10px !important;
+  padding-right:10px !important;  	
+  padding-bottom:10px !important;  
+}
+
+.table>tbody>tr>td{
+  padding:2px !important;	
+}
+
+.nav-tabs {
+  border-bottom: 0px solid #ddd; 
+}
+
+#myTabs.nav-custom > li > a{
+  color:white ;	
+  text-decoration:none !important;	
+}
+
+#myTabs.nav-tabs>li.active>a{
+  color: black !important;	
+}
+
+#myTabs.nav-tabs>li.active>a>img{
+  -webkit-filter: invert(1);
+  filter: invert(1);  	
+}
+#myTabs.nav-tabs>li>a:hover>img{
+  -webkit-filter: invert(1);
+  filter: invert(1);  	
+}
+
+#myTabs.nav-custom > li > a:hover{
+  color: black !important; 	
+  background-color: white !important;
+}
+
+#myTabs.nav-custom > li > a:hover > i.circulo{
+  border-color: black !important; 	  
+}
+
+#myTabs.nav-custom > li.active {
+  color: black !important;
+  background-color: white !important;  	
+}
+
+#myTabs.nav-custom > li.active > a > i.circulo{
+  border-color: black !important; 	
+}
+
+
+select {
+  border-radius:5px !important;
+  border-color:#F57E1B !important;
+}
+
+
+.textoSinDecoracion{
+  text-decoration:none !important;	
+}
+
+#myTabs.nav-custom > li {
+  border-left-color: white !important;
+  border-left-width: 1px !important;
+  border-left-style: solid;
+  border-top-color: white !important;
+  border-top-width: 1px !important;
+  border-top-style: solid;
+  border-right-color: white !important;
+  border-right-width: 1px !important;
+  border-right-style: solid;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  margin-left:2px !important; 	
+}
+
+
+
+.textoNegro{
+  color:black !important;	
+}
+
+

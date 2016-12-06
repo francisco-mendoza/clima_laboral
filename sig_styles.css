@@ -1,0 +1,370 @@
+.title {
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000066;
+}
+.title1 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000066;
+}
+.title2 {
+	font-family: Arial;
+	font-size: 11px;
+	color: #000066;
+}
+
+.vineta {
+	color: #FFA317;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+.sublinea {
+	background: #FFA317;
+}
+.bg {
+	background: #CCCCCC;
+}
+.inst2 {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	background: #FFFFFF;
+
+}
+.inst3 {
+	font-family: Arial;
+	font-size: 11px;
+	color: #0055A9;
+	font-weight: normal;
+	background-color: #F5F5F5;
+	padding: 4px;
+}
+.inst4 {
+	font-family: Arial;
+	font-size: 10px;
+	color: #003366;
+	font-weight: bold;
+}
+.box {
+	font: normal 12px Arial;
+	color: #000066;
+	background: #FFFFFF;
+}
+.m_campos
+{
+	font-family: Arial;
+	font-size: 10px;
+}
+.box1 {
+	font: normal 12px Arial;
+	color: #000066;
+	background: #FFFFFF;
+}
+.fecha {
+	font: normal 12px Arial;
+	text-align: center;
+	color: #000066;
+}
+
+.separadores {
+	background: #FFE3BB;
+}
+/* Para su uso en formularios de ingreso de datos */
+/* Estilos lado izquierdo de rotulos */
+/*
+.encabezado-tabla-fon-gris-normal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0055A9;
+	font-weight: normal;
+	background-color: #FFFFCC;
+    padding: 4px;
+}
+*/
+/* Estilos lado derecho de campos */
+.item-tabla-fon-bco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	background-color: #FFFFFF; 
+	padding: 4px;
+}
+/* Para todo campo de ingreso de datos */
+.input-generico {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	/*background-image: url(../Images/fondo_input_text.jpg);*/
+	background-repeat:   repeat-x;
+	background-attachment: fixed;
+	border: 1px solid #999999;
+	padding-left: 3px;
+	padding-top: 2px;
+}
+
+/* Para todo campo de ingreso de datos */
+.input-generico-num {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	/*background-image: url(../Images/fondo_input_text.jpg);*/
+	background-repeat:   repeat-x;
+	background-attachment: fixed;
+	border: 1px solid #999999;
+	padding-left: 1px;
+	padding-top: 1px;
+	text-align: right;
+	width:70px;
+}
+
+/* Para todo campo de ingreso de datos */
+.input-formulador-num {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	/*background-image: url(../Images/fondo_input_text.jpg);*/
+	background-repeat:   repeat-x;
+	background-attachment: fixed;
+	border: 1px solid #999999;
+	padding-left: 1px;
+	padding-top: 1px;
+	text-align: right;
+	width:70px;
+}
+
+/* Para todo campo de ingreso de datos */
+.input-formulador-concepto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	/*background-image: url(../Images/fondo_input_text.jpg);*/
+	background-repeat:   repeat-x;
+	background-attachment: fixed;
+	border: 1px solid #999999;
+	padding-left: 1px;
+	padding-top: 1px;
+	text-align:left;
+	width:200px;
+}
+
+
+/* Para todo campo de ingreso de fechas*/
+.input-generico-fec {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	/*background-image: url(../Images/fondo_input_text.jpg);*/
+	background-repeat:   repeat-x;
+	background-attachment: fixed;
+	border: 1px solid #999999;
+	padding-left: 3px;
+	padding-top: 2px;
+	text-align: center;
+	width:70px;
+}
+.input-generico-fec2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #C0C0C0;
+	/*background-image: url(../Images/fondo_input_text.jpg);*/
+	background-repeat:   repeat-x;
+	background-attachment: fixed;
+	border: 1px solid #999999;
+	padding-left: 3px;
+	padding-top: 2px;
+	text-align: center;
+	width:70px;
+}
+
+/* Para tablas de muestras de objetivos estrategicos*/
+.tit-internas11 {
+	background-repeat:  repeat-x;
+	background-position: bottom;
+	padding-bottom: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	padding-top: 10px;
+}
+.item-tabla-despliege {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 5px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+/* Para tbals de despliege de datos (listadores y reportes)*/
+.titulo_tabla_des
+{
+	font-family: Arial;
+	font-size: 11px;
+	color: #0055A9;
+   padding: 5px;
+	background:#FFDB70;
+	text-align:center;
+	font-weight:bold;
+}
+.filas_tablas_des
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	padding: 5px;
+	border-bottom: 1px dotted #CCCCCC;
+	border-left:  1px dotted #CCCCCC;
+	border-right:  1px dotted #CCCCCC;
+
+}
+.filas_tablas_des1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	padding: 5px;
+}
+/* Formato para desplieges genricos */
+.txt-arial-9 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+/* Para comentarios o indicaciones generales */
+.txt-arial-9-gris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+}
+/* Para comentarios o indicaciones generales */
+.txt-arial-10-gris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+.txt-arial-11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.txt-arial-12-gris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #C0C0C0;
+	/*background-image: url(../Images/fondo_input_text.jpg);*/
+	background-repeat:   repeat-x;
+	background-attachment: fixed;
+	border: 1px solid #999999;
+	padding-left: 1px;
+	padding-top: 1px;
+	text-align: right;
+	width:70px;
+}
+.txt-arial-12-azul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #728EB8;
+	background-color: #FFF0C1;
+	/*background-image: url(../Images/fondo_input_text.jpg);*/
+	background-repeat:   repeat-x;
+	background-attachment: fixed;
+	border: 1px solid #999999;
+	padding-left: 1px;
+	padding-top: 1px;
+	text-align: right;
+	width:70px;
+}
+.oculto {
+	display: none;
+}
+.textoA {
+	color: #728EB8;
+	font-family: monospace;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.textoD1 {
+	color: Black;
+	background-color: #B3D7D9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.textoD2 {
+	color: #728EB8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: dashed 1px #728EB8;
+	border-top: dashed 1px #728EB8;
+	background-color: White;
+}
+.textoE {
+	color: Black;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-decoration: none;
+}
+.textoP{
+	background: White;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.textoQ{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #728EB8;
+	background-color: #FFF0C1;
+}
+.botonA_Off {	
+	height:20px;
+	cursor: hand;
+	background-color: #728EB8;
+	border: 1px outset #C0C0C0;
+	color: White;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.botonA_On {
+	height:20px;
+	cursor: hand;
+	background-color: #0055A9;
+	border: 1px outset #C0C0C0;
+	color: White;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.cuadro_tabla {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	background-repeat:   repeat-x;
+	background-attachment: fixed;
+	border: 1px solid #000000;
+	padding-left: 3px;
+	padding-top: 2px;
+}
+
+#lista{ width:200px;; margin: 50px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; visibility:hidden}
+#lista dt{ border: 1px solid #000; background-color:#666; color:#FFF;  padding-left:3px; margin-top:3px; line-height:16px}
+#lista dd{ padding:3px; border-bottom:1px solid #000;border-left:1px solid #000; border-right:1px solid #000; overflow:hidden}
+#flecha{border-bottom:0; border-right:6px solid #666; border-top:7px solid #FFF; border-left:6px solid #666; width:0; height:0; position:relative; left:175px; top:-10px}
